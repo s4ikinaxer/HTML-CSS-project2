@@ -1,0 +1,438 @@
+    .container {
+        margin: 0 auto;
+        width: 1280px;
+    }
+    /* Шапка сайта */
+    
+    header {
+        width: 100%;
+        min-height: 323px;
+        padding: 50px;
+        box-sizing: border-box;
+        background-color: #445161;
+    }
+    
+    .header-left {
+        float: left;
+    }
+    
+    .header-title {
+        margin: 0;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: 400;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+        text-transform: capitalize;
+    }
+    
+    .header-list {
+        list-style-type: none;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    }
+    
+    .header-list-item {
+        position: relative;
+    }
+    
+    .header-list-item:before {
+        content: "";
+        display: block;
+        width: 25px;
+        height: 19px;
+        position: absolute;
+        top: 7px;
+        left: -37px;
+        background-image: url(../img/tick.png);
+        background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .header-photo {
+        display: block;
+        float: right;
+    }
+    /* Первый блок "About your product */
+    
+    .section-first {
+        width: 100%;
+        min-height: 345px;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    
+    .section-first:after {
+        content: '';
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    
+    .section-first-left {
+        float: left;
+        width: 649px;
+    }
+    
+    .section-first-title {
+        font-family: Arial;
+        font-size: 30px;
+        line-height: 1.2;
+        text-align: left;
+        color: #445161;
+        text-transform: capitalize;
+    }
+    
+    .section-first-article1,
+    .section-first-article2 {
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+    }
+    
+    .section-first-article1 {
+        margin: 30px 0 20px 0;
+    }
+    
+    .section-first-video {
+        float: right;
+    }
+    /* Второй блок "Dignity and pluses product" */
+    
+    .section-second {
+        min-height: 417px;
+        width: 100%;
+        padding: 50px;
+        background-color: #f5f5f5;
+        box-sizing: border-box;
+    }
+    
+    .section-second:after {
+        content: '';
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    
+    .section-second-title {
+        display: block;
+        margin: 0 0 24px 0;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial;
+        color: rgb(68, 81, 97);
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+    
+    .section-second-list {
+        width: 540px;
+        margin: 0;
+        padding: 0 0 0 46px;
+        list-style-type: none;
+        float: left;
+        font-family: Arial;
+        font-size: 16px;
+    }
+    
+    .section-second-list:nth-child(3) {
+        float: right;
+    }
+    
+    .section-second-list-item {
+        margin: 0 0 40px 0;
+        position: relative;
+    }
+    
+    .section-second-list:nth-child(2) > .section-second-list:nth-child(3),
+    .dignity-list:nth-child(3) > .section-second-list-item:nth-child(3) {
+        margin: 0;
+    }
+    
+    .section-second-list-item:before {
+        content: "+";
+        display: block;
+        width: 32px;
+        height: 32px;
+        background-color: #445161;
+        color: white;
+        font-size: 42px;
+        text-align: center;
+        line-height: 32px;
+        position: absolute;
+        top: 0;
+        left: -46px;
+    }
+    /* Третий блок "Scrinshots" */
+    
+    .section-third {
+        min-height: 487px;
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    
+    .section-third:after {
+        content: '';
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    
+    .section-third-title {
+        display: block;
+        margin: 0 0 24px 0;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial;
+        color: rgb(68, 81, 97);
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+    
+    .section-third-left {
+        float: left;
+        width: 50%
+    }
+    
+    .section-third-right {
+        float: right;
+        width: 50%;
+    }
+    /* <Браузер автоматически задавал параметры 1em, 1em, 40px,40px. Пришлось прописать здесь нужные нули. Почему так произошло - не понял */
+    
+    .section-third-figure {
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 16px;
+    }
+    
+    .section-third-figure img {
+        float: left;
+        margin: 0 15px 0 0;
+    }
+    
+    .section-third-figure-title {
+        font-family: Arial;
+        font-size: 24px;
+        line-height: 1.25;
+        text-align: left;
+        color: #445161;
+    }
+    
+    .section-third-figure-text {
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+        width: 349px;
+        padding-left: 215px;
+    }
+    /* Четвертый блок "Reviews" */
+    
+    .section-4th {
+        min-height: 424px;
+        width: 100%;
+        padding: 50px;
+        background-color: #f5f5f5;
+        box-sizing: border-box;
+    }
+    
+    .section-4th:after {
+        content: '';
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    
+    .section-4th-title {
+        display: block;
+        margin: 0 0 24px 0;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial;
+        color: rgb(68, 81, 97);
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+    
+    .section-4th-left {
+        float: left;
+        width: 50%;
+    }
+    
+    .section-4th-right {
+        float: right;
+        width: 50%;
+    }
+    
+    .section-4th-review {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .section-4th-review:nth-child(2) {
+        margin-top: 24px;
+    }
+    
+    .section-4th-avatar {
+        float: left;
+        margin-right: 16px;
+    }
+    
+    .section-4th-review-textarea {
+        background-color: #ebebeb;
+        border-radius: 10px;
+        position: relative;
+        width: 470px;
+    }
+    
+    .section-4th-review-textarea:before {
+        position: absolute;
+        content: "";
+        display: block;
+        height: 26px;
+        width: 13px;
+        background-image: url(../img/triangle.png);
+        left: -13px;
+        top: 25px;
+    }
+    
+    .section-4th-review-text {
+        display: block;
+        font-family: Arial;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.29;
+        text-align: left;
+        color: #333333;
+        margin: 16px 20px 15px 20px;
+    }
+    
+    .section-4th-review-name {
+        display: block;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 1.29;
+        text-align: left;
+        color: #989898;
+        margin: 15px 0px 16px 14px;
+    }
+    /* Пятый блок "Buy it now" */
+    
+    .section-5th {
+        min-height: 656px;
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    
+    .section-5th:after {
+        content: '';
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    
+    .section-5th-title {
+        display: block;
+        margin: 0 0 24px 0;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial;
+        color: rgb(68, 81, 97);
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+    
+    .section-5th-variants {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section-5th-standart,
+    .section-5th-premium,
+    .section-5th-lux {
+        width: 300px;
+        background-color: #445162;
+        border-radius: 10px;
+        align-self: flex-end;
+        padding: 16px 0px 20px 0px;
+    }
+    
+    .section-5th-premium {
+        margin: 0 45px 0 45px;
+    }
+    
+    .section-5th-classtitle {
+        display: block;
+        margin: 0;
+        margin-bottom: 17px;
+        text-transform: capitalize;
+        width: 100%;
+        font-family: Arial;
+        font-size: 24px;
+        line-height: 1.25;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .section-5th-price {
+        display: block;
+        margin: 0;
+        padding: 18px 0 18px 0;
+        background-color: white;
+        font-family: Arial;
+        font-size: 40px;
+        line-height: 0.75;
+        text-align: center;
+        color: #445162;
+        border-left: 2px solid #445162;
+        border-right: 2px solid #445162;
+    }
+    
+    .section-5th-include {
+        display: block;
+        margin: 19px 30px 20px 20px;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: left;
+        color: #ffffff;
+        list-style-position: inside;
+        padding: 0;
+    }
+    
+    .section-5th-buybutton {
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        min-height: 40px;
+        width: 260px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        margin: 0px 20px 0px 20px;
+        text-transform: uppercase;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 10px;
+        color: #445161;
+    }
+    
+    .section-5th-buybutton-text {
+        margin: auto;
+    }
