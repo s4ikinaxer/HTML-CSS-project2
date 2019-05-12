@@ -436,3 +436,225 @@
     .section-5th-buybutton-text {
         margin: auto;
     }
+    
+    .section-5th-buybutton:hover {
+        background-color: #445161;
+        color: #ffffff;
+        outline: 1px solid #ffffff;
+    }
+    
+    .section-5th-buybutton:active {
+        transform: scale(0.8);
+        background-color: #ffffff;
+        color: #445161;
+        outline: none;
+    }
+    /* Футер "Contacts" */
+    
+    .footer {
+        width: 100%;
+        padding-top: 50px;
+        box-sizing: border-box;
+        background-color: #445162;
+    }
+    
+    .footer:after {
+        content: '';
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    
+    .footer-title {
+        display: block;
+        margin: 0 0 24px 0;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial;
+        color: #ffffff;
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+    
+    .footer-form {
+        float: left;
+        width: 500px;
+        margin-left: 199px;
+        margin-bottom: 49px;
+    }
+    
+    .footer-form input,
+    .footer-form textarea {
+        margin-bottom: 21px;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        color: #445162;
+    }
+    
+    .footer-form input:focus,
+    .footer-form textarea:focus {
+        outline: none;
+    }
+    
+    .footer-form-btn {
+        width: 140px;
+        height: 40px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        text-align: left;
+        color: #445162;
+        text-align: center;
+        margin-left: 180px;
+    }
+    
+    .footer-form-btn:hover {
+        background-color: #445161;
+        color: #ffffff;
+    }
+    
+    .footer-form-btn:active {
+        transform: scale(0.8);
+        background-color: #ffffff;
+        color: #445161;
+        outline: none;
+    }
+    
+    .footer-contacts {
+        float: left;
+        margin-left: 86px;
+        position: relative;
+        padding-top: 5px;
+    }
+    
+    .footer-contacts-skype,
+    .footer-contacts-icq,
+    .footer-contacts-mail,
+    .footer-contacts-phone {
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        margin-bottom: 29px;
+        position: relative;
+    }
+    
+    .footer-contacts-skype:before {
+        display: block;
+        width: 24px;
+        height: 26px;
+        content: "";
+        background-image: url(../img/skype_icon.png);
+        position: absolute;
+        left: -29px;
+        top: -2px;
+    }
+    
+    .footer-contacts-icq:before {
+        display: block;
+        width: 26px;
+        height: 26px;
+        content: "";
+        background-image: url(../img/icq_icon.png);
+        position: absolute;
+        left: -29px;
+        top: -2px;
+    }
+    
+    .footer-contacts-mail:before {
+        display: block;
+        width: 22px;
+        height: 22px;
+        content: "";
+        background-image: url(../img/email_icon.png);
+        position: absolute;
+        left: -29px;
+        top: 2px;
+    }
+    
+    .footer-contacts-phone:before {
+        display: block;
+        width: 24px;
+        height: 23px;
+        content: "";
+        background-image: url(../img/phone_icon.png);
+        position: absolute;
+        left: -29px;
+        top: -2px;
+    }
+    
+    .footer-contacts-links {
+        width: 250px;
+        position: absolute;
+        left: -29px;
+    }
+    
+    .footer-contacts-links a {
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 42px;
+        width: 43px;
+        margin-right: 7px;
+        float: left;
+    }
+    
+    .footer-link-twitter {
+        background-image: url(../img/twitter.png)
+    }
+    
+    .footer-link-facebook {
+        background-image: url(../img/facebook.png)
+    }
+    
+    .footer-link-in {
+        background-image: url(../img/in.png)
+    }
+    
+    .footer-link-google {
+        background-image: url(../img/google.png)
+    }
+    
+    .footer-link-youtube {
+        background-image: url(../img/youtube.png)
+    }
+    
+    .footer-link-twitter:hover,
+    .footer-link-facebook:hover,
+    .footer-link-in:hover,
+    .footer-link-google:hover,
+    .footer-link-youtube:hover {
+        outline: 0.1px solid white;
+    }
+    
+    .footer-link-twitter:active,
+    .footer-link-facebook:active,
+    .footer-link-in:active,
+    .footer-link-google:active,
+    .footer-link-youtube:active {
+        transform: scale(0.8);
+        outline: none;
+    }
+    
+    .footer-footer {
+        clear: both;
+        width: 100%;
+        background-color: #ffffff;
+        text-align: center;
+        font-family: Arial;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.3px;
+        color: #445162;
+    }
